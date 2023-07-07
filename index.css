@@ -46,6 +46,12 @@ td {
     padding:15px 48px;
 }
 
+.btn-primary:hover {
+    color: #415326;
+    background-color: #d3bb9c;
+    border-color: #415326;
+}
+
 .darker {
     background:rgba(255, 255, 255,0.4);
     height: 100px;
