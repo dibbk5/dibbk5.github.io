@@ -1,17 +1,26 @@
 body, html {
-    height: 100%;
+    width: 100%;
     margin: 0;
     font: 400 15px/1.8 "Lato", sans-serif;
+    background-color: #1c2737;
+    color: #DDE6ED;
   }
 
-.table {
-    width: 50%;
+img {
+    width: 10%;
+    height: auto;
 }
-
+  
 td {
     border-bottom: 0px;
     text-align: center;
 }
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
   
 .accordion {
     background-color: #eee;
@@ -30,19 +39,12 @@ td {
     background-color: #ccc;
 }
 
-.bg {
-    background-image: url("./static/background.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .btn-primary {
-    color: #d3bb9c;
-    background-color: #415326;
-    border-color: #d3bb9c;
-    box-shadow: 0px 10px 14px -7px #3e7327;
+    color: #9DB2BF;
+    background-color: #526D82;
+    border-color: #9DB2BF;
+    box-shadow: 0px 10px 14px -7px #526D82;
     padding:15px 48px;
 }
 
@@ -52,13 +54,18 @@ td {
     border-color: #415326;
 }
 
+.container {
+    width: 100%;
+}
+
 .darker {
     background:rgba(255, 255, 255,0.4);
-    height: 100px;
+    height: 10%
 }
 
 .long-dark {
     background:rgba(255, 255, 255,0.4);
+    width: 100%;
 }
   
 .panel {
@@ -69,11 +76,16 @@ td {
 }
 
 .shader {
-    background:rgba(255, 255, 255,0.3);
-    color: black;
+    background:rgba(255, 255, 255,0.1);
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 1.5%;
+}
+
+.table {
+    color: #DDE6ED;
+    width: 100%;
 }
 
 .vid-container {
