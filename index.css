@@ -7,8 +7,9 @@ body, html {
   }
 
 img {
-    width: 10%;
+    width: 15%;
     height: auto;
+    padding: 5px
 }
   
 td {
@@ -49,9 +50,9 @@ ul {
 }
 
 .btn-primary:hover {
-    color: #415326;
-    background-color: #d3bb9c;
-    border-color: #415326;
+    color: #526D82;
+    background-color: #9DB2BF;
+    border-color: #526D82;
 }
 
 .container {
