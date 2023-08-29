@@ -7,6 +7,8 @@ body {
     color: white;
     background-color: #202124;
     border-color: white;
+    border-radius: 15px;
+    width: 20%;
 }
 
 .vid-background {
